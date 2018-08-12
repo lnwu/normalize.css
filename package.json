@@ -2,12 +2,24 @@
   "name": "@lnwu/normalize.css",
   "version": "0.0.1",
   "description": "Li's specific normalize css",
-  "main": "src/normalize.css",
+  "main": "dist/main.css",
   "repository": "git@github.com:lnwu/normalize.css.git",
   "author": "lnwu <wind2729@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev": "webpack -w --mode=development",
+    "build": "webpack --mode=production"
+  },
   "dependencies": {
     "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
   }
 }
