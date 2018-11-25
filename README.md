@@ -3,6 +3,6 @@
 
 My specific normalize css.
 
-# Useage
+# Usage
 
 yarn add @lnwu/normalize.css
