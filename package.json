@@ -1,6 +1,6 @@
 {
   "name": "@lnwu/normalize.css",
-  "version": "0.0.15",
+  "version": "0.0.17",
   "description": "Li's specific normalize css",
   "main": "dist/main.css",
   "repository": "git@github.com:lnwu/normalize.css.git",
